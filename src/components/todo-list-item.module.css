@@ -1,0 +1,59 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.todoItem:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.todoContent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todoTitle {
+  font-size: 1rem;
+  color: #2d3748;
+}
+
+.completedText {
+  text-decoration: line-through;
+  color: #a0aec0;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.actionButton {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #718096;
+  transition: color 0.2s ease;
+}
+
+.actionButton:hover {
+  color: #4299e1;
+}
+
+.completeButton {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #cbd5e0;
+  transition: color 0.2s ease;
+}
